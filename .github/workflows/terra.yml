@@ -12,7 +12,7 @@ permissions:
 jobs:
     plan:
         runs-on: ubuntu-latest
-        if: github.event_name == 'pull_request'
+        # if: github.event_name == 'pull_request'
 # if you have modules like dev and prod then you can use the below code to set the working directory for each job
         # defaults:
         #     run:
