@@ -31,7 +31,7 @@ jobs:
                 role-session-name: github-actions
                 aws-region: ap-south-1
             - name: Terraform init
-              run: terraform init
+              run: terraform init -reconfigure
             - name: Terraform validate
               run: terraform validate
             - name: Terraform plan
